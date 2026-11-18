@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Home</title>
+</head>
+<body class="min-h-screen bg-[#566bd0] text-white">
+
+    <div class="mx-auto flex min-h-screen max-w-[1800px] flex-col gap-6 p-4">
+
+        <!-- HEADER -->
+        <header class="flex flex-wrap items-center justify-between gap-4 rounded-xl bg-gray-200 px-5 py-3 shadow-md">
+
+            <!-- Logo -->
+            <a href="index.html" aria-label="Home">
+                <img src="assests/images/gpt-image-2_Make_a_logo_of_a_person_working_internet_cables_in_a_server_with_this_colors_559-0 (1).jpg" alt="Logo"
+                     class="h-14 w-14 rounded-full object-contain">
+            </a>
+
+    <input type="checkbox" id="menu-knop" class="peer sr-only">
+
+    <!-- Botón hamburguesa -->
+    <label
+        for="menu-knop"
+        class="cursor-pointer rounded-lg border border-gray-300 p-2
+               peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2
+               peer-focus-visible:outline-blue-600 lg:hidden"
+    >
+        <svg xmlns="http://www.w3.org/2000/svg"
+             fill="none"
+             viewBox="0 0 24 24"
+             stroke-width="1.5"
+             stroke="currentColor"
+             class="size-6">
+
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+
+    </label>
+
+            <!-- Navigatie -->
+            <nav aria-label="Hoofdmenu">
+                <ul class="flex flex-col gap-3 pb-4 lg:flex-row lg:items-center lg:pb-0">
+
+                    <li>
+                        <a href="index.html" aria-current="page"
+                           class="rounded-full bg-blue-500 px-5 py-2 font-semibold text-white shadow-sm hover:bg-blue-600 focus:outline-2 focus:outline-offset-4 focus:outline-blue-700">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html"
+                           class="rounded-full bg-blue-300 px-5 py-2 text-gray-900 hover:bg-blue-400 focus:outline-2 focus:outline-offset-4 focus:outline-blue-700">
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html"
+                           class="rounded-full bg-blue-300 px-5 py-2 text-gray-900 hover:bg-blue-400 focus:outline-2 focus:outline-offset-4 focus:outline-blue-700">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </header>
+
+
+<header class="flex flex-wrap items-center justify-between gap-4 bg-gray-200 px-4">
+
+    <!-- Logo -->
+    <a href="index.html" aria-label="Home">
+        <img
+            src="assests/images/gpt-image-2_Make_a_logo_of_a_person_working_internet_cables_in_a_server_with_this_colors_559-0 (1).jpg"
+            alt="Logo"
+            class="h-20 w-20 object-contain"
+        >
+    </a>
+
+    <!-- Checkbox para controlar el menú -->
+    <input type="checkbox" id="menu-knop" class="peer sr-only">
+
+    <!-- Botón hamburguesa -->
+    <label
+        for="menu-knop"
+        class="cursor-pointer rounded-lg border border-gray-300 p-2
+               peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2
+               peer-focus-visible:outline-blue-600 lg:hidden"
+    >
+        <svg xmlns="http://www.w3.org/2000/svg"
+             fill="none"
+             viewBox="0 0 24 24"
+             stroke-width="1.5"
+             stroke="currentColor"
+             class="size-6">
+
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+        </svg>
+    </label>
+
+    <!-- Navegación -->
+    <nav
+        aria-label="Hoofdmenu"
+        class="hidden w-full peer-checked:block lg:block lg:w-auto"
+    >
+        <ul class="flex flex-col gap-3 pb-4 lg:flex-row lg:items-center lg:pb-0">
+
+            <li>
+                <a href="index.html"
+                   aria-current="page"
+                   class="block rounded-full bg-gray-700 px-4 py-2 font-semibold text-white hover:bg-gray-600
+                          focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="portfolio.html"
+                   class="block rounded-full px-4 py-2 text-gray-800 hover:bg-gray-300
+                          focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600">
+                    Portfolio
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html"
+                   class="block rounded-full px-4 py-2 text-gray-800 hover:bg-gray-300
+                          focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+        </header>
+
+
+
+        <!-- MAIN + ASIDE -->
+        <div class="grid flex-1 grid-cols-1 gap-6 lg:grid-cols-3">
+
+            <!-- MAIN -->
+            <main class="space-y-6 lg:col-span-2">
+
+                <div>
+                    <h1 class="mb-2 text-4xl font-bold tracking-tight md:text-5xl">
+                        Home
+                    </h1>
+
+                    <p class="text-blue-50">
+                        Welkom op mijn website, waarop ik ga een beetje over mezelf vertellen en mijn projecten indienen.
+                    </p>
+                </div>
+
+
+                <!-- Eerste voorstelling -->
+                <section class="grid grid-cols-1 gap-5 rounded-xl bg-white/10 p-4 md:grid-cols-5 md:items-start">
+
+                    <img src="assests/images/Designer (2).png"
+                         alt="Student werkt aan een serverinstallatie"
+                         class="h-52 w-full rounded-lg object-cover shadow-md md:col-span-2">
+
+                    <div class="md:col-span-3">
+                        <p class="leading-relaxed text-blue-50">
+                            Hallo! Mijn naam is Anas, ik ben 21 jaar oud en heb een grote interesse in de wereld van IT. Momenteel studeer ik Graduaat Systeem- en Netwerkbeheer aan AP Hogeschool.
+
+                            Tijdens mijn opleiding leer ik meer over servers, netwerken, systemen en verschillende IT-technologieën. Ik vind het interessant om te begrijpen hoe technische systemen werken en hoe ik problemen op een efficiënte manier kan oplossen.
+
+                            Voor ik aan mijn huidige opleiding begon, behaalde ik mijn diploma PC-technicus. Dankzij deze opleiding heb ik een goede basis opgebouwd binnen de informatica.
+                        </p>
+                    </div>
+
+                </section>
+
+
+                <!-- Tweede voorstelling -->
+                <section class="grid grid-cols-1 gap-5 rounded-xl bg-white/10 p-4 md:grid-cols-5 md:items-start">
+
+                    <img src="assests/images/Designer (3).png"
+                         alt="Serverruimte met netwerkapparatuur"
+                         class="h-52 w-full rounded-lg object-cover shadow-md md:col-span-2">
+
+                    <div class="md:col-span-3">
+                        <p class="leading-relaxed text-blue-50">
+                            Een van mijn sterke punten is dat ik snel nieuwe dingen leer. Wanneer ik iets nog niet ken, probeer ik het eerst zelf te begrijpen en uit te zoeken.
+
+                            Ik ben niet bang om fouten te maken, omdat ik deze zie als een kans om bij te leren. Wanneer ik aan een taak begin, probeer ik deze altijd zo goed mogelijk af te werken en aandacht te besteden aan de details.
+
+                            Ik kan zowel zelfstandig als in teamverband goed werken.
+                        </p>
+                    </div>
+
+                </section>
+
+            </main>
+
+
+            <!-- ASIDE -->
+            <aside class="h-fit rounded-xl bg-gray-200 p-6 text-gray-900 shadow-lg lg:sticky lg:top-6">
+
+                <h2 class="mb-6 border-b border-gray-300 pb-3 text-2xl font-bold">
+                    Algemene informatie
+                </h2>
+
+                <div class="space-y-5">
+
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-gray-500">
+                            Naam
+                        </p>
+                        <p class="font-medium">Anas Sanhaji</p>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-gray-500">
+                            Opleiding
+                        </p>
+                        <p class="font-medium">Student Systeem & Netwerk Beheer</p>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-gray-500">
+                            E-mail
+                        </p>
+                        <a href="mailto:anassanhaji1@gmail.com"
+                           class="font-medium text-blue-700 hover:underline">
+                            anassanhaji1@gmail.com
+                        </a>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-gray-500">
+                            Telefoon
+                        </p>
+                        <a href="tel:0484972937"
+                           class="font-medium text-blue-700 hover:underline">
+                            0484972937
+                        </a>
+                    </div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class="rounded-xl bg-gray-200 p-5 text-gray-800 shadow-md">
+
+            <div class="flex flex-col justify-between gap-4 text-sm md:flex-row md:items-center">
+
+                <div>
+                    <p class="font-bold">Anas Sanhaji</p>
+                    <p class="text-gray-600">Graduaat Systeem- en Netwerkbeheer</p>
+                </div>
+
+                <div class="md:text-right">
+                    <p>Academiejaar 2026/2027</p>
+                    <p>0484972937</p>
+                    <p>anassanhaji1@gmail.com</p>
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>

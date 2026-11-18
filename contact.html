@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <title>Contact - Anas Sanhaji</title>
+    <meta name="description" content="Portfolio van Anas Sanhaji, student systeem- en
+    netwerkbeheer aan AP Hogeschool. Bekijk mijn projecten en neem contact op.">
+</head>
+<body class="flex flex-col max-w-6xl mx-auto p-4 bg-(--kleur-body)">
+    <header class="flex flex-wrap items-center justify-between gap-4 rounded-xl bg-gray-200 px-5 py-3 shadow-md">
+        <img
+            src="assests/images/gpt-image-2_Make_a_logo_of_a_person_working_internet_cables_in_a_server_with_this_colors_559-0 (1).jpg"
+            alt="Logo"
+            class="h-20 w-20 object-contain"
+        >
+
+        <input type="checkbox" id="menu-knop" class="peer sr-only">
+
+        <label
+            for="menu-knop"
+            class="cursor-pointer rounded-lg border border-gray-300 px-3 py-2 peer-focus-visible:outline-2 md:hidden"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+            </svg>
+
+        </label>
+
+        <nav class="hidden w-full peer-checked:block md:block md:w-auto">
+            <ul class="flex flex-col gap-4 md:flex-row md:items-center">
+                <li aria-current="page" class="rounded-full bg-(--kleur-li) bg-gray-700 px-4 py-2 font-semibold text-white">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="rounded-full px-4 py-2 text-gray-800 hover:bg-gray-300">
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="rounded-full px-4 py-2 text-gray-800 hover:bg-gray-300">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+<div class="p-6 text-white grid grid-cols-2 gap-8">
+    <main class=>
+        <h1 class="text-6xl font-bold py-4">Contact</h1>
+
+            <div>
+                <form action="#" class="grid gap-4 grid-cols-1 md:grid-cols-2">
+
+                <div>
+                    <label for="voornaam" class="block font-medium">naam <span class="text-red-700"
+                    aria-hidden="true">*</span></label>
+                    <input type="text" id="voornaam" name="naam" autocomplete="given-name" required
+                    class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2">
+                </div>
+
+                <div>
+                    <label for="mail" class="block font-medium">e-mail</label>
+                    <input type="email" id="mail" name="email"  autocomplete="email"
+                    aria-describedby="mail-hulp"
+                    class="peer mt-1 w-full rounded-lg border border-gray-400 bg-white px-3 py-2 userinvalid:border-red-700">
+                    <p id="mail-hulp" class="mt-1 text-sm text-gray-600">Vul een e-mailadres in zoals
+                    naam@voorbeeld.be.</p>
+                    <p class="mt-1 hidden text-sm font-semibold text-red-700 peer-user-invalid:block">Dit emailadres klopt niet. Vul het in zoals naam@voorbeeld.be.</p>
+                </div>
+
+                <div class="grid md:col-span-2">
+                    <label for="vraag"  class="block font-medium">Je bericht <span class="text-red-700"
+                    aria-hidden="true">*</span></label> 
+                    <textarea id="bericht" name="bericht" rows="4" class="border border-gray-400 bg-white rounded-lg">
+                    </textarea>
+                    <p id="text-hulp" class="mt-1 text-sm text-gray-600">Schrijf minstens tien tekens.</p>
+                    <p class="mt-1 hidden text-sm font-semibold text-red-700 peer-user-invalid:block">Je bericht is te kort. Schrijf minstens tien tekens</p>
+                </div>
+
+                <div>
+                    <p><input type="checkbox" name="nieuwsbrief" id="nieuwsbrief" value="ja"><label for="nieuwsbrief"> Ik ga akkoord dat Anas mijn bericht leest</label></p><br>
+                    <button type="submit" class="rounded-lg bg-blue-700 px-5 py-2 font-semibold text-white hover:bg-blue-800 px-2">Verstuur</button>
+                </div>
+
+                
+            </form>
+            </div>
+    </main>
+
+            <aside class="h-fit rounded-xl bg-gray-200 p-6 text-gray-900 shadow-lg lg:sticky lg:top-6">
+
+                <h2 class="mb-6 border-b border-gray-300 pb-3 text-2xl font-bold">
+                    Algemene informatie
+                </h2>
+
+                <div class="space-y-5">
+
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-gray-500">
+                            Naam
+                        </p>
+                        <p class="font-medium">Anas Sanhaji</p>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-gray-500">
+                            Opleiding
+                        </p>
+                        <p class="font-medium">Student Systeem & Netwerk Beheer</p>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-gray-500">
+                            E-mail
+                        </p>
+                        <a href="mailto:anassanhaji1@gmail.com"
+                           class="font-medium text-blue-700 hover:underline">
+                            anassanhaji1@gmail.com
+                        </a>
+                    </div>
+
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-wide text-gray-500">
+                            Telefoon
+                        </p>
+                        <a href="tel:0484972937"
+                           class="font-medium text-blue-700 hover:underline">
+                            0484972937
+                        </a>
+                    </div>
+
+                </div>
+
+            </aside>
+</div>
+
+
+        <footer class="mt-auto rounded-xl bg-gray-200 p-5 text-gray-800 shadow-md">
+
+            <div class="flex flex-col justify-between gap-4 text-sm md:flex-row md:items-center">
+
+                <div>
+                    <p class="font-bold">Anas Sanhaji</p>
+                    <p class="text-gray-600">Graduaat Systeem- en Netwerkbeheer</p>
+                </div>
+
+                <div class="md:text-right">
+                    <p>Academiejaar 2026/2027</p>
+                    <p>0484972937</p>
+                    <p>anassanhaji1@gmail.com</p>
+                </div>
+
+            </div>
+
+        </footer>
+
+</body>
+</html>
